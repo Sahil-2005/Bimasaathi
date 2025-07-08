@@ -255,7 +255,7 @@ export default function HeroSlider() {
     {
       image: "https://plus.unsplash.com/premium_photo-1726768848622-398d89d16d1c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       badge: "Drive with Peace of Mind",
-      title: "Drive Worry-Free",
+      title: "Drive Worry-Free (Motor Insurance)",
       subtitle: "Compare top-rated car insurance policies easily.",
       button: "Compare Now",
       route: "/insurance/motor-insurance",

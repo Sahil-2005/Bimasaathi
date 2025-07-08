@@ -1,5 +1,5 @@
 {
-  "name": "bimasaathi",
+  "name": "V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,10 +12,12 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.12.1",
+    "lucide-react": "^0.515.0",
     "react": "^19.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.58.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.0",
     "swiper": "^11.2.7"

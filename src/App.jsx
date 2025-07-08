@@ -15,6 +15,7 @@ import HomeInsurance from "./pages/HomeInsurance";
 import CareersPage from "./pages/Careers";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
+import AgentRequirements from "./pages/AgentRequirement";
 
 
 function AnimatedRoutes() {
@@ -29,6 +30,7 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
         <Route path="/be-advisor" element={<PageWrapper><Advisor /></PageWrapper>} />
         <Route path="/careers" element={<PageWrapper><CareersPage /></PageWrapper>} />
+        <Route path="/agent-requirement" element={<PageWrapper><AgentRequirements /></PageWrapper>} />
         <Route path="/insurance/motor-insurance" element={<PageWrapper><MotorInsurance /></PageWrapper>} />
         <Route path="/insurance/non-motor-insurance" element={<PageWrapper><NonMotorInsurance /></PageWrapper>} />
         <Route path="/insurance/health-life-insurance" element={<PageWrapper><HealthLifeInsurance /></PageWrapper>} />

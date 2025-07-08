@@ -9,11 +9,11 @@
 //           {/* Left Content */}
 //           <div className="text-left">
 //             <h2 className="text-5xl font-extrabold text-blue-700 mb-10 leading-tight">
-//               Why Choose <span className="text-black">Bimasaathi?</span>
+//               Why Choose <span className="text-black">V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?</span>
 //             </h2>
 
 //             <p className="text-gray-800 text-2xl mb-10 leading-relaxed max-w-3xl">
-//               At <strong>Bimasaathi</strong>, we’re committed to
+//               At <strong>V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</strong>, we’re committed to
 //               transforming the way you choose insurance. By combining smart
 //               technology and human clarity, we help you make confident,
 //               well-informed decisions without the stress.
@@ -44,7 +44,7 @@
 
 //             <p className="mt-10 text-gray-700 text-xl max-w-2xl">
 //               Say goodbye to complicated forms and confusing terms. With{" "}
-//               <strong>Bimasaathi</strong>, you’re always one step ahead
+//               <strong>V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</strong>, you’re always one step ahead
 //               — informed, empowered, and insured.
 //             </p>
 //           </div>
@@ -76,11 +76,11 @@ const Intro = () => {
         {/* Left Content */}
         <div className="text-left">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-700 mb-6 sm:mb-10 leading-tight">
-            Why Choose <span className="text-black">Bimasaathi?</span>
+            Why Choose <span className="text-black">V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?</span>
           </h2>
 
           <p className="text-gray-800 text-base sm:text-lg md:text-2xl mb-6 sm:mb-10 leading-relaxed max-w-full sm:max-w-3xl">
-            At <strong>Bimasaathi</strong>, we’re committed to
+            At <strong>V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</strong>, we’re committed to
             transforming the way you choose insurance. By combining smart
             technology and human clarity, we help you make confident,
             well-informed decisions without the stress.
@@ -111,7 +111,7 @@ const Intro = () => {
 
           <p className="mt-8 sm:mt-10 text-gray-700 text-base sm:text-xl max-w-full sm:max-w-2xl">
             Say goodbye to complicated forms and confusing terms. With{" "}
-            <strong>Bimasaathi</strong>, you’re always one step ahead
+            <strong>V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</strong>, you’re always one step ahead
             — informed, empowered, and insured.
           </p>
         </div>

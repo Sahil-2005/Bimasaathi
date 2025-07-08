@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "http://insurancecarryinfo.in/*"
+  to = "https://insurancecarryinfo.in/:splat"
+  status = 301
+  force = true

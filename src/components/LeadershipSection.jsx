@@ -58,7 +58,7 @@
 //             Meet Our Leader
 //           </h1>
 //           <p className="text-blue-600 text-xl">
-//             The people behind Bimasaathi Private Limited
+//             The people behind V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP Private Limited
 //           </p>
 //         </div>
 
@@ -121,14 +121,14 @@ export default function LeadershipSection() {
             Meet Our Leader
           </h1>
           <p className="text-blue-600 text-lg md:text-xl">
-            The people behind Bimasaathi Private Limited
+            The people behind V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP Private Limited
           </p>
         </div>
 
         <Leader
           name="Lahu Angarkhe"
           title="Founder"
-          bio="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+          bio="With over 20 years of extensive field experience across various sectors of the insurance industry—including life, health, general, and motor insurance—Lahu Angarkhe brings unmatched expertise and leadership to V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP Private Limited. A graduate with a strong foundation in business, he previously ran a successful trading venture before moving into insurance, where he has held key roles such as Business Development Manager and Area Head. His deep industry knowledge and strategic vision continue to drive the company's growth and commitment to providing smart, reliable insurance solutions."
           imageUrl={lahuImg}
         />
       </div>

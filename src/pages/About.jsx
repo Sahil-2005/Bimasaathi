@@ -35,7 +35,7 @@
 //             <div className="container mx-auto px-4 md:px-6">
 //               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 //                 <div>
-//                   <h1 className="text-3xl md:text-5xl font-bold mb-4">About Bimasaathi</h1>
+//                   <h1 className="text-3xl md:text-5xl font-bold mb-4">About V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</h1>
 //                   <p className="text-lg md:text-xl mb-6">
 //                     We're on a mission to transform the insurance experience in India through transparency, technology, and trust.
 //                   </p>
@@ -73,10 +73,10 @@
 //         <div className="container mx-auto px-4 md:px-6">
 //           <div className="max-w-3xl mx-auto text-center mb-12">
 //             <h2 className="text-3xl font-bold text-blue-600 mb-4">
-//               Why Choose Bimasaathi?
+//               Why Choose V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?
 //             </h2>
 //             <p className="text-gray-700 text-lg">
-//               At Bimasaathi, we're committed to transforming the way you
+//               At V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP, we're committed to transforming the way you
 //               choose insurance. By combining smart technology and human clarity,
 //               we help you make confident, well-informed decisions without the
 //               stress.
@@ -122,7 +122,7 @@
 
 //           <div className="text-center mt-10">
 //             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-//               With Bimasaathi, you're always one step ahead — informed,
+//               With V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP, you're always one step ahead — informed,
 //               empowered, and insured.
 //             </p>
 //           </div>
@@ -138,7 +138,7 @@
 //                 Our Story
 //               </h2>
 //               <p className="text-gray-700 mb-4">
-//                 Founded in 2024, Bimasaathi was born from a simple
+//                 Founded in 2024, V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP was born from a simple
 //                 observation: insurance in India was unnecessarily complicated,
 //                 confusing, and time-consuming. Our founders experienced
 //                 firsthand the frustration of navigating the complex insurance
@@ -401,6 +401,11 @@ import Footer from "../components/Footer";
 import bharaImg from "../assets/team/bharat.jpg";
 import lahuImg from "../assets/team/lahu.jpg";
 import girishImg from "../assets/team/girish.jpg";
+import vidyaImg from "../assets/team/vidya.jpg";
+import sharadImg from "../assets/team/sharad.jpg";
+import AmitImg from "../assets/team/amit.jpg";
+import { Link } from "react-router-dom";
+
 
 export default function AboutPage() {
   return (
@@ -412,7 +417,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-3xl md:text-5xl font-bold mb-4">
-                About Bimasaathi
+                About V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP
               </h1>
               <p className="text-lg md:text-xl mb-6">
                 We're on a mission to transform the insurance experience in India through transparency, technology, and trust.
@@ -442,15 +447,44 @@ export default function AboutPage() {
         </div>
       </section>
 
+       {/* Our Sister Brand */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl">
+          <h2 className="text-3xl font-bold text-blue-600 mb-6">
+            Our Sister Brand – Insurance Carry Info
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            <strong>Insurance Carry Info</strong> is the digital face of our mission to provide
+            easy, fast, and accessible insurance services across India. As a sister
+            brand under the umbrella of V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP,
+            it serves as a user-friendly portal for comparing, understanding, and
+            purchasing insurance with confidence.
+          </p>
+          <p className="text-gray-700 text-lg mb-6">
+            Whether it's Motor, Health, Life, or Non-Motor Insurance, <strong>Insurance Carry Info</strong> is designed to cater to the modern consumer—
+            providing clarity, transparency, and convenience all in one place.
+          </p>
+          <Link to="/" className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+            Visit Insurance Carry Info
+          </Link>
+          {/* <a
+            href="/"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+          >
+          </a> */}
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-600 mb-4">
-              Why Choose Bimasaathi?
+              Why Choose V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?
             </h2>
             <p className="text-gray-700 text-lg">
-              At Bimasaathi, we're committed to transforming the way you
+              At V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP, we're committed to transforming the way you
               choose insurance. By combining smart technology and human clarity,
               we help you make confident, well-informed decisions without the
               stress.
@@ -496,7 +530,7 @@ export default function AboutPage() {
 
           <div className="text-center mt-10">
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              With Bimasaathi, you're always one step ahead — informed,
+              With V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP, you're always one step ahead — informed,
               empowered, and insured.
             </p>
           </div>
@@ -510,7 +544,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-blue-600 mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4">
-                Founded in 2024, Bimasaathi was born from a simple observation: insurance in India was unnecessarily complicated, confusing, and time-consuming.
+                Founded in 2024, V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP was born from a simple observation: insurance in India was unnecessarily complicated, confusing, and time-consuming.
               </p>
               <p className="text-gray-700 mb-4">
                 What began as a small startup has now grown into one of India's most trusted insurance platforms. Our journey is driven by a singular focus: making insurance accessible and hassle-free for every Indian.
@@ -590,9 +624,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
               { img: lahuImg, name: "Lahu Angarkhe", title: "Founder & CEO" },
-              { img: girishImg, name: "Girish Tripati", title: "Vice President" },
-              { img: bharaImg, name: "Bharat Lakhara", title: "State Head" },
-            ].map(({ img, name, title }, idx) => (
+              { img: vidyaImg, name: "Vidya Angarkhe", title: "Director" },
+              { img: girishImg, name: "Girish Tripathi", title: "Vice President" },
+              ].map(({ img, name, title }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4 mx-auto relative w-48 h-48">
                   <img src={img} alt={name} className="w-48 h-48 rounded-full object-cover mx-auto" />

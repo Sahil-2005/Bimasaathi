@@ -103,7 +103,7 @@
 //         <div className="container mx-auto px-4 md:px-6">
 //           <div className="max-w-3xl mx-auto text-center mb-12">
 //             <h2 className="text-3xl font-bold text-blue-600 mb-4">
-//               Why Join Bimasaathi?
+//               Why Join V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?
 //             </h2>
 //             <p className="text-gray-700 text-lg">
 //               We believe in creating an environment where our team members can
@@ -538,7 +538,7 @@ function CareersPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center mb-12">
               <h2 className="text-3xl font-bold text-blue-600 mb-4">
-                Why Join Bimasaathi?
+                Why Join V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP?
               </h2>
               <p className="text-gray-700 text-lg">
                 We believe in creating an environment where our team members can
@@ -602,38 +602,7 @@ function CareersPage() {
                 </p>
               </div>
 
-              {isSubmitted ? (
-                <div className="text-center space-y-6">
-                  <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto">
-                    <FaCheckCircle className="text-green-600 text-6xl" />
-                  </div>
-                  <h3 className="text-3xl font-semibold text-green-600">
-                    Application Submitted Successfully!
-                  </h3>
-                  <p className="text-gray-600 max-w-xl mx-auto">
-                    Thank you for applying. We appreciate your interest and will
-                    review your application shortly.
-                  </p>
-                  <button
-                    onClick={() => {
-                      setIsSubmitted(false);
-                      setFormData({
-                        name: "",
-                        email: "",
-                        contact: "",
-                        position: "",
-                        resume: null,
-                      });
-                      setFormErrors({});
-                    }}
-                    className="bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-white px-8 py-3 rounded-lg font-medium shadow-md"
-                  >
-                    Submit Another Application
-                  </button>
-                </div>
-              ) : (
                 <ApplicationForm/>
-              )}
             </div>
           </div>
         </section>

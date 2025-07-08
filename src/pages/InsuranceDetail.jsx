@@ -223,7 +223,7 @@
 //   return (
 //     <>
 //       <Helmet>
-//         <title>{data.title} | Bimasaathi</title>
+//         <title>{data.title} | V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</title>
 //       </Helmet>
 
 //       <section className="bg-white py-28 px-6 md:px-10 lg:px-16">
@@ -246,7 +246,7 @@
 //             </ul>
 
 //             <p className="mt-10 text-gray-700 text-base max-w-xl">
-//               Bimasaathi provides transparent, jargon-free policies with
+//               V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP provides transparent, jargon-free policies with
 //               real-time support. Secure your future with a plan that matches
 //               your lifestyle.
 //             </p>
@@ -384,7 +384,7 @@ export default function InsuranceDetail() {
   return (
     <>
       <Helmet>
-        <title>{data.title} | Bimasaathi</title>
+        <title>{data.title} | V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP</title>
       </Helmet>
 
       <section className="bg-white py-20 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto text-blue-700">

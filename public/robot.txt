@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+
+Allow: /
+
+Sitemap: https://insurancecarryinfo.in/sitemap.xml
