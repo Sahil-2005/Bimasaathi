@@ -304,21 +304,6 @@ const ApplicationForm = () => {
           {errors.contact && <p className={errorClass}>{errors.contact}</p>}
         </div>
 
-        {/* <div>
-          <label className="block font-medium mb-2 text-sm sm:text-base">Select Position</label>
-          <div className="flex flex-col gap-2">
-            <label className="flex items-center gap-2 text-sm sm:text-base">
-              <input type="radio" name="position" value="svm" />
-              Senior Verification Manager
-            </label>
-            <label className="flex items-center gap-2 text-sm sm:text-base">
-              <input type="radio" name="position" value="relationship-manager" />
-              Relationship Manager
-            </label>
-          </div>
-          {errors.position && <p className={errorClass}>{errors.position}</p>}
-        </div> */}
-
         <div>
           <label className="block font-medium mb-1 text-sm sm:text-base">Upload Resume</label>
           <input

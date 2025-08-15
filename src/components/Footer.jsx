@@ -101,26 +101,36 @@ const Footer = () => {
               Mumbai - 400086
             </p>
           </div>
-          {/* <div className="text-base sm:text-lg opacity-90">
-            📞 +91 84335 89573
-            <br />
-            📞 +91 22451 84253
-            <br />
-            📧 support@insurancecarryinfo.in
-          </div> */}
 
           <div className="text-base sm:text-lg opacity-90 space-y-1">
-  <p>
-    📞 <a href="tel:+918433589573" className="hover:text-blue-300 transition">+91 84335 89573</a>
-  </p>
-  <p>
-    📞 <a href="tel:+912245184253" className="hover:text-blue-300 transition">+91 22451 84253</a>
-  </p>
-  <p>
-    📧 <a href="mailto:support@insurancecarryinfo.in" className="hover:text-blue-300 transition">support@insurancecarryinfo.in</a>
-  </p>
-</div>
-
+            <p>
+              📞{" "}
+              <a
+                href="tel:+918433589573"
+                className="hover:text-blue-300 transition"
+              >
+                +91 84335 89573
+              </a>
+            </p>
+            <p>
+              📞{" "}
+              <a
+                href="tel:+912245184253"
+                className="hover:text-blue-300 transition"
+              >
+                +91 22451 84253
+              </a>
+            </p>
+            <p>
+              📧{" "}
+              <a
+                href="mailto:support@insurancecarryinfo.in"
+                className="hover:text-blue-300 transition"
+              >
+                support@insurancecarryinfo.in
+              </a>
+            </p>
+          </div>
         </motion.div>
       </div>
 
@@ -144,35 +154,58 @@ const Footer = () => {
       </div> */}
 
       {/* Bottom Bar */}
-<div className="mt-14 border-t border-blue-600 pt-6 text-base sm:text-lg w-full max-w-[1600px] mx-auto">
-  <div className="text-center sm:text-left text-sm sm:text-base text-white mb-4 sm:mb-2">
-    <p>
-      <span className="font-medium text-white">Insurance Carry Info</span> is a digital platform of{" "}
-      <span className="font-semibold text-blue-200">V and L Assurance and Investment Solution Pvt. Ltd.</span>
-    </p>
-  </div>
+      <div className="mt-14 border-t border-blue-600 pt-6 text-base sm:text-lg w-full max-w-[1600px] mx-auto">
+        <div className="text-center sm:text-left text-sm sm:text-base text-white mb-4 sm:mb-2">
+          <p>
+            <span className="font-medium text-white">Insurance Carry Info</span>{" "}
+            is a digital platform of{" "}
+            <span className="font-semibold text-blue-200">
+              V and L Assurance and Investment Solution Pvt. Ltd.
+            </span>
+          </p>
+        </div>
 
-  <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-    <p className="text-sm sm:text-base">
-      © {new Date().getFullYear()} V AND L ASSURANCE & INVESTMENT SOLUTIONS LLP. All rights reserved.
-    </p>
-    <div className="flex gap-5 text-xl">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-        <FaFacebookF />
-      </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-        <FaTwitter />
-      </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-        <FaLinkedinIn />
-      </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-        <FaInstagram />
-      </a>
-    </div>
-  </div>
-</div>
-
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-sm sm:text-base">
+            © {new Date().getFullYear()} V AND L ASSURANCE & INVESTMENT
+            SOLUTIONS LLP. All rights reserved.
+          </p>
+          <div className="flex gap-5 text-xl">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-300 transition"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-300 transition"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-300 transition"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-300 transition"
+            >
+              <FaInstagram />
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
