@@ -17,6 +17,7 @@ import Footer from "../components/Footer";
 import bharaImg from "../assets/team/bharat.jpg";
 import lahuImg from "../assets/team/lahu.jpg";
 import girishImg from "../assets/team/girish.jpg";
+import hemantImg from "../assets/team/hemant.jpeg";
 import vidyaImg from "../assets/team/vidya.jpg";
 import sharadImg from "../assets/team/sharad.jpg";
 import AmitImg from "../assets/team/amit.jpg";
@@ -235,13 +236,11 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-blue-600 text-center mb-16">Our Team</h2>
 
-          <h3 className="text-2xl font-semibold text-blue-600 text-center mb-10">Founders</h3>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
-              { img: lahuImg, name: "Lahu Angarkhe", title: "Founder & CEO" },
-              { img: vidyaImg, name: "Vidya Angarkhe", title: "Director" },
-              { img: girishImg, name: "Girish Tripathi", title: "Vice President" },
+              { img: lahuImg, name: "Lahu Angarkhe", title: "Founder" },
+              { img: vidyaImg, name: "Vidya Angarkhe", title: "Partner" },
+              { img: hemantImg, name: "Hemant Babulal Makwana", title: "Director- Retail Agency India" },
               ].map(({ img, name, title }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4 mx-auto relative w-48 h-48">
