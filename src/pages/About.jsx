@@ -19,6 +19,8 @@ import lahuImg from "../assets/team/lahu.jpg";
 import girishImg from "../assets/team/girish.jpg";
 import hemantImg from "../assets/team/hemant.jpeg";
 import vidyaImg from "../assets/team/vidya.jpg";
+import sanjayImg from "../assets/team/sanjay.jpeg";
+import manishaImg from "../assets/team/manisha.jpeg";
 import sharadImg from "../assets/team/sharad.jpg";
 import AmitImg from "../assets/team/amit.jpg";
 import { Link } from "react-router-dom";
@@ -238,9 +240,11 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
-              { img: lahuImg, name: "Lahu Angarkhe", title: "Founder" },
-              { img: vidyaImg, name: "Vidya Angarkhe", title: "Partner" },
-              { img: hemantImg, name: "Hemant Babulal Makwana", title: "Director- Retail Agency India" },
+              { img: lahuImg, name: "Lahu Angarkhe", title: "Founder And CEO Insurance Carry" },
+              { img: vidyaImg, name: "Vidya Angarkhe", title: "Co Founder And Executive" },
+              { img: manishaImg, name: "Manisha Shinde", title: "Head of Human Resources" },
+              { img: sanjayImg, name: "Sanjay Sawant", title: "Director and insurance Carry" },
+              {/* { img: hemantImg, name: "Hemant Babulal Makwana", title: "Director- Retail Agency India" }, */}
               ].map(({ img, name, title }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4 mx-auto relative w-48 h-48">
