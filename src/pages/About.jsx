@@ -21,7 +21,7 @@ import hemantImg from "../assets/team/hemant.jpeg";
 import vidyaImg from "../assets/team/vidya.jpg";
 import sanjayImg from "../assets/team/sanjay.jpeg";
 import manishaImg from "../assets/team/manisha.jpeg";
-import sharadImg from "../assets/team/sharad.jpg";
+import sadashivImg from "../assets/team/SadashivImg.jpeg";
 import AmitImg from "../assets/team/amit.jpg";
 import { Link } from "react-router-dom";
 
@@ -243,8 +243,8 @@ export default function AboutPage() {
               { img: lahuImg, name: "Lahu Angarkhe", title: "Founder And CEO Insurance Carry" },
               { img: vidyaImg, name: "Vidya Angarkhe", title: "Co Founder And Executive" },
               { img: manishaImg, name: "Manisha Shinde", title: "Head of Human Resources" },
-              { img: sanjayImg, name: "Sanjay Sawant", title: "Director and insurance Carry" },
-              {/* { img: hemantImg, name: "Hemant Babulal Makwana", title: "Director- Retail Agency India" }, */}
+              { img: sanjayImg, name: "Sanjay Sawant", title: "Managing Director(MD) insurance Carry" },
+              { img: sadashivImg, name: "Sadashiv Nikam", title: "State Head" },
               ].map(({ img, name, title }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4 mx-auto relative w-48 h-48">
