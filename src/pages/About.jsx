@@ -242,7 +242,6 @@ export default function AboutPage() {
             {[
               { img: lahuImg, name: "Lahu Angarkhe", title: "Founder And CEO Insurance Carry" },
               { img: vidyaImg, name: "Vidya Angarkhe", title: "Co Founder And Executive" },
-              { img: manishaImg, name: "Manisha Shinde", title: "Head of Human Resources" },
               { img: sanjayImg, name: "Sanjay Sawant", title: "Managing Director(MD) insurance Carry" },
               { img: sadashivImg, name: "Sadashiv Nikam", title: "State Head" },
               ].map(({ img, name, title }, idx) => (
